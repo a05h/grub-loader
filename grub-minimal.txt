@@ -1,0 +1,41 @@
+title-text: "*"
+title-font: "Arame Mono Thin 14"
+title-color: "#ffffff"
+desktop-image: "bg.png"
+desktop-color: "#000000"
+message-font: "Arame Mono Thin 14"
+message-color: "#ffffff"
+message-bg-color: "#676767"
+terminal-font: "Terminal Regular 12"
+terminal-box: "term.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  selected_item_pixmap_style = "sel.png"
+  left = 10%
+  top = 15%
+  width = 50%
+  height = 75%
+  item_font = "Terminal Regular 12"
+  item_color = "#aaaaaa"
+  selected_item_color = "#ffffff"
+  item_height = 18
+  item_padding = 0
+  item_spacing = 12
+  icon_width = 24
+  icon_height = 24
+  icon_spacing = 12
+}
+
++ label {
+  id = "__timeout__"
+  top = 97%
+  left = 0%
+  width = 100%
+  height = 3%
+  color = "#4a4a4a"
+}
