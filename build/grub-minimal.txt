@@ -15,17 +15,17 @@ terminal-border: "0"
 + boot_menu {
   left = 15%
   top = 29%
-  width = 70%
-  height = 75%
+  width = 79%
+  height = 60%
   item_font = "Terminal Regular 12"
   item_color = "#aaaaaa"
   selected_item_color = "#ffffff"
-  item_height = 18
+  item_height = 6
   item_padding = 0
-  item_spacing = 12
-  icon_width = 24
-  icon_height = 24
-  icon_spacing = 12
+  item_spacing = 4
+  icon_width = 16
+  icon_height = 16
+  icon_spacing = 4
 }
 
 + label {
@@ -36,6 +36,6 @@ terminal-border: "0"
   top = 80%
   left = 30%
   width = 30%
-  height = 3%
+  height = 2%
   color = "#4a4a4a"
 }
